@@ -1,0 +1,27 @@
+.footer {
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  background-color: red;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.footerIcon {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  .footer-content {
+    width: 1140px;
+  }
+}

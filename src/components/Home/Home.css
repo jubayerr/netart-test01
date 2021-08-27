@@ -1,0 +1,62 @@
+.home {
+  margin: 0 auto;
+}
+.banner-section {
+  display: flex;
+}
+.trophy-area {
+  flex: 4;
+  padding: 20px 0;
+}
+.photograph-area {
+  flex: 8;
+  padding: 20px 10px;
+}
+.list-items {
+  padding: 0 40px;
+}
+.trophy {
+  height: 600px;
+}
+.photograph {
+  width: 100%;
+  padding: 10px 0;
+}
+.gallery {
+  text-align: center;
+  padding: 25px 0;
+}
+.galleryImg {
+  width: 96%;
+}
+.b-style {
+  padding: 1px;
+  background-color: red;
+  margin: 4px;
+}
+.divider {
+  margin: 0 auto;
+  background: tomato;
+  width: 90%;
+  padding: 2px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+  .home {
+    width: 375px;
+    text-align: center;
+  }
+  .banner-section {
+    flex-direction: column;
+  }
+  .trophy {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  .home {
+    width: 1140px;
+  }
+}
